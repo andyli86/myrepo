@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: myrepo
+  description: andy repo for test
+  annotations:
+    example.com/service-discovery: sa-k8s-internal
+  tags:
+    - test
+  links:
+    - url: https://www.google.com
+      title: myrepo
+      icon: Deployment
+      type: admin-dashboard
+    - url: https://github.com/andyli86/myrepo
+      title: GitHub
+      icon: GitHub
+      type: repo
+spec:
+  type: singleton
+  lifecycle: experimental
+  owner: andy.li
+  system: public-websites
