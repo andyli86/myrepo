@@ -6,7 +6,9 @@ metadata:
   annotations:
     github.com/service-discovery: myrepo_test
   tags:
-    - test java golang
+    - test 
+    - java 
+    - golang
   links:
     - url: https://github.com/andyli86/myrepo_test
       title: myrepo_test repo
