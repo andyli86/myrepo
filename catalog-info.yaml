@@ -4,20 +4,16 @@ metadata:
   name: myrepo_test
   description: andy repo for testing catalog
   annotations:
-    example.com/service-discovery: sa-k8s-internal
+    github.com/service-discovery: myrepo_test
   tags:
-    - test
+    - test java golang
   links:
-    - url: https://www.google.com
-      title: myrepo_test
-      icon: Deployment
-      type: admin-dashboard
-    - url: https://github.com/andyli86/myrepo
-      title: GitHub
+    - url: https://github.com/andyli86/myrepo_test
+      title: myrepo_test repo
       icon: GitHub
       type: repo
 spec:
-  type: other
+  type: test
   lifecycle: experimental
   owner: andy infra-team
   system: public-websites
